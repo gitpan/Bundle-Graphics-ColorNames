@@ -3,5 +3,5 @@ Makefile.PL
 MANIFEST
 README
 t/Bundle-Graphics-ColorNames.t
-lib/Bundle/Graphics/ColorNames.pm
+ColorNames.pm
 META.yml                                 Module meta-data (added by MakeMaker)
