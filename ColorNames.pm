@@ -3,7 +3,7 @@ package Bundle::Graphics::ColorNames;
 use 5.005;
 use strict;
 
-our $VERSION = '1.01';
+our $VERSION = '1.03';
 
 1;
 
@@ -23,11 +23,26 @@ Module::Load - used for dynamic module loading
 
 Graphics::ColorNames - base module and schemas for Graphics::ColorNames
 
-Graphics::ColorNames::GrayScale - grayscale schema
+Graphics::ColorNames::X - default X-Windows schema
+
+Graphics::ColorNames::HTML - HTML schema
+
+Graphics::ColorNames::Windows - Microsoft Windows schema
+
+Graphics::ColorNames::Netscape - deprecated Netscape 1.1 schema
+
+Graphics::ColorNames::SVG - SVG-related colors
+
+Graphics::ColorNames::WWW - subset of SVG
+
+Graphics::ColorNames::IE - Microsoft Internet Explorer colors
 
 Graphics::ColorNames::Mozilla - Mozilla colors
 
+Graphics::ColorNames::GrayScale - grayscale schema
+
 Graphics::ColorNames::VACCC - VisiBone Anglo-Centric Color Codes
+
 
 =head1 DESCRIPTION
 
@@ -40,7 +55,7 @@ Robert Rothenberg <rrwo at cpan.org>
 
 =head1 LICENSE
 
-Copyright (c) 2004 Robert Rothenberg. All rights reserved.
+Copyright (c) 2004-2005 Robert Rothenberg. All rights reserved.
 This program is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
 

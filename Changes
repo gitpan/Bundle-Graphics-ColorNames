@@ -1,5 +1,10 @@
 Revision history for Perl extension Bundle::Graphics::ColorNames.
 
+1.03  Mon Apr  4 2005
+	- added pod.t test
+	- explicitly added X, HTML, Netscape and Windows styles
+	- added IE, SVG, and WWW styles
+
 1.01  Thu Aug 26 2004
 	- added Graphics::ColorNames::GrayScale
 	- minor reorganization of POD
