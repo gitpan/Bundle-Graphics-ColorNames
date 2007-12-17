@@ -2,7 +2,5 @@ Changes
 Makefile.PL
 MANIFEST
 README
-t/Bundle-Graphics-ColorNames.t
-t/pod.t
 ColorNames.pm
 META.yml                                 Module meta-data (added by MakeMaker)

@@ -1,9 +1,9 @@
-package Bundle::Graphics::ColorNames;
+package Bundle::Graphics::ColorNames
 
 use 5.005;
 use strict;
 
-our $VERSION = '1.03';
+our $VERSION = '1.04';
 
 1;
 
@@ -43,6 +43,9 @@ Graphics::ColorNames::GrayScale - grayscale schema
 
 Graphics::ColorNames::VACCC - VisiBone Anglo-Centric Color Codes
 
+Graphics::ColorNames::EmergyC - Eco-friendly web-design color palette
+
+Graphics::ColorNames::Crayola - the original 48 crayola crayon colors
 
 =head1 DESCRIPTION
 
@@ -55,7 +58,7 @@ Robert Rothenberg <rrwo at cpan.org>
 
 =head1 LICENSE
 
-Copyright (c) 2004-2005 Robert Rothenberg. All rights reserved.
+Copyright (c) 2004-2007 Robert Rothenberg. All rights reserved.
 This program is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
 
